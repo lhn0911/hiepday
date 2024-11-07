@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Nguyen",
+      "lastName": "Anh",
+      "email": "nguyen.anh@gmail.com",
+      "userName": "nguyenanh",
+      "status": "active",
+      "createAt": "2024-01-15",
+      "updateAt": "2024-02-01",
+      "password": "securepassword",
+      "avatar": "https://i.pinimg.com/736x/bf/44/f0/bf44f0dce9873f824d00bfb9617f97b4.jpg",
+      "address": "Hanoi",
+      "emailVerified": 1,
+      "phone": "0123456789",
+      "role": "user",
+      "deletedAt": null,
+      "permissionList": [
+        "view",
+        "edit"
+      ]
+    },
+    {
+      "id": 306821,
+      "email": "abc@gmail.com",
+      "userName": "",
+      "password": "$2a$10$NSpPkT9Dz6si./KA5yIYBuBwFrZ67rrOzjTvOUnC0LyYkKkiv8PSi",
+      "createAt": "7/11/2024",
+      "firstName": "",
+      "lastName": "",
+      "gender": "",
+      "status": "active",
+      "updateAt": "",
+      "avatar": "https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg",
+      "address": "",
+      "emailVerified": "",
+      "role": "user",
+      "deletedAt": "",
+      "permissionList": [
+        ""
+      ]
+    }
+  ],
+  "enterprise": [
+    {
+      "id": 1,
+      "userId": 1,
+      "companySize": "50-100",
+      "industry": "IT",
+      "introduction": "Leading tech company",
+      "websiteUrl": "https://example.com",
+      "facebookUrl": "https://facebook.com/example",
+      "zaloUrl": "https://zalo.me/example",
+      "linkedinUrl": "https://linkedin.com/company/example",
+      "twitterUrl": "https://twitter.com/example",
+      "businessLicense": "123456789",
+      "status": "active"
+    }
+  ],
+  "job": [
+    {
+      "id": 1,
+      "enterpriseId": 1,
+      "title": "Software Developer",
+      "salary": "1000-1500 USD",
+      "exp": "2 years",
+      "createAt": "2024-01-20",
+      "expiredAt": "2024-02-20",
+      "des": "Develop and maintain software applications",
+      "status": "open"
+    }
+  ],
+  "interviewBooking": [
+    {
+      "id": 1,
+      "enterpriseId": 1,
+      "userId": 1,
+      "status": "scheduled",
+      "createAt": "2024-01-25",
+      "meetingLink": "https://meetinglink.com/123",
+      "cancelReason": null
+    }
+  ],
+  "userCertificate": [
+    {
+      "id": 1,
+      "userId": 1,
+      "receivedDate": "2023-12-15",
+      "expirationDate": "2025-12-15",
+      "certificateValue": "Certified Software Developer"
+    }
+  ],
+  "enterpriseAddress": [
+    {
+      "id": 1,
+      "enterpriseId": 1,
+      "address": "123 Main St, Hanoi"
+    }
+  ]
+}
